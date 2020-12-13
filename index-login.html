@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Portal UAD | Universitas Ahmad Dahlan</title>
+  </head>
+
+  <body>
+    <nav id="main-nav">
+      <div class="container">
+        <h1 class="logo">Portal UAD</h1>
+        <div class="social"></div>
+        <ul>
+          <li><a class="current" href="index.html">Home</a></li>
+          <li><a href="about.html">FAQ</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars fa-2x"></i>
+        </a>
+      </div>
+    </nav>
+
+    <section id="mobile">
+      <div id="mobile-nav">
+        <a class="current" href="index.html">Home</a>
+        <a href="about.html">FAQ</a>
+      </div>
+    </section>
+
+    <!-- Showcase -->
+    <header id="showcase">
+      <div class="container">
+        <div class="showcase-container">
+          <div class="showcase-content">
+            <div class="category category-sports">Penting</div>
+            <h1>Pengumuman</h1>
+            <p>
+              Letakan highlight pengumuman disini, dengan meletakkan pengumuman
+              pada awal halaman, maka kemungkinan besar akan terbaca oleh
+              pengguna aplikasi portal
+            </p>
+            <a href="#" class="btn btn-primary">Baca Lebih Lanjut</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <style>
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+    </style>
+
+    <!-- Home Article -->
+    <section id="home-articles" class="py-2">
+      <div class="container">
+        <h2>Login Portal</h2>
+        <div class="page-container">
+          <article class="card">
+            <div>
+              <form action="" method="post">
+                <input
+                  type="text"
+                  id="author"
+                  name="comment_author"
+                  placeholder="Masukan nim"
+                  required
+                />
+                <input
+                  type="text"
+                  id="email"
+                  name="comment_email"
+                  placeholder="Masukan password"
+                  required
+                />
+                <button
+                  type="submit"
+                  name="create_comment"
+                  class="btn btn-primary"
+                >
+                  Login
+                </button>
+              </form>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="py-1">
+      <div class="container footer-container">
+        <div>
+          <p>Copyright &copy; 2020, Portal UAD</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mobile-nav");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
