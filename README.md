@@ -6,3 +6,7 @@
 2. Tampilan Dashboard (Versi Mobile)
 
 ![Tampilan Dashboard](https://i.ibb.co/Z1vKyr5/2-guys.gif)
+
+3. Tampilan KRS (Versi Mobile)
+
+![Tampilan KRS](https://i.ibb.co/74cPqgM/3-guys.gif)
