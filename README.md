@@ -10,3 +10,7 @@
 3. Tampilan KRS (Versi Mobile)
 
 ![Tampilan KRS](https://i.ibb.co/74cPqgM/3-guys.gif)
+
+4. Tampilan pilih semester (Versi Mobile)
+
+![Tampilan pilih semester](https://i.ibb.co/RyYqSWh/4-guys.gif)
