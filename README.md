@@ -13,4 +13,4 @@
 
 4. Tampilan pilih semester (Versi Mobile)
 
-![Tampilan pilih semester](https://i.ibb.co/RyYqSWh/4-guys.gif)
+![Tampilan memilih semester](https://i.ibb.co/RyYqSWh/4-guys.gif)
