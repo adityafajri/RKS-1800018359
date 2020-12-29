@@ -14,3 +14,7 @@
 4. Tampilan pilih semester (Versi Mobile)
 
 ![Tampilan memilih semester](https://i.ibb.co/RyYqSWh/4-guys.gif)
+
+5. Tampilah berhasil memilih mata kuliah (Versi Mobile)
+
+![Alt](https://i.ibb.co/jkXybT7/5-guys.gif)
