@@ -22,3 +22,7 @@
 6. Pilih semester untuk lihat presensi (Versi Mobile)
 
 ![Alt](https://i.ibb.co/DYmK23S/8-guys.gif)
+
+7. Menampilkan jumlah kehadiran (Versi Mobile)
+
+![Alt](https://i.ibb.co/PWnj46D/9-guys.gif)
