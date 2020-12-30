@@ -1,7 +1,7 @@
 # Portal Front End UAD (Responsive)
 1. Tampilan Login Portal (Versi Mobile)
 
-![Tampilan Awal](https://i.ibb.co/2Zq88rn/1-guys.gif)
+![Tampilan Awal](https://i.ibb.co/ww7S1FY/6-guys.gif)
 
 2. Tampilan Dashboard (Versi Mobile)
 
