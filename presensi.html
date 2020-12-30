@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>NewsGrid | Latest News</title>
+  </head>
+
+  <body>
+    <nav id="main-nav">
+      <div class="container">
+        <a href="index.html">
+          <h1 class="logo">Portal Akademik</h1>
+        </a>
+        <div class="social"></div>
+        <ul>
+          <i class="fa fa-user fa-1x" style="align-self: center"></i>
+          &nbsp;&nbsp;
+          <p>Aditya Fajri Melinianto</p>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars fa-2x"></i>
+        </a>
+      </div>
+    </nav>
+    <style>
+      #navbar {
+        background: #c72727;
+      }
+
+      #navbar ul {
+        margin: auto;
+        list-style: none;
+      }
+
+      #navbar ul li {
+        color: #fff;
+        display: inline-block;
+        padding: 1rem;
+        position: relative;
+      }
+
+      #navbar ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      #navbar ul li ul {
+        display: none;
+      }
+
+      #navbar ul li:hover {
+        cursor: pointer;
+        background: #000;
+        color: #fff;
+      }
+
+      #navbar ul li:hover a {
+        color: #fff;
+      }
+
+      #navbar ul li:hover ul {
+        display: block;
+        position: absolute;
+        left: 0;
+        margin-top: 1rem;
+        width: 200px;
+      }
+
+      #navbar ul li:hover ul li {
+        background: #e7e7e7;
+        display: block;
+      }
+
+      #navbar ul li:hover ul li:hover {
+        background: #e0e0e0;
+      }
+
+      #navbar ul li:hover ul li a {
+        color: #333;
+      }
+
+      #navbar ul li:hover ul li span {
+        float: right;
+        color: #fff;
+        background: #000;
+        padding: 0.2rem 0.5rem;
+        font-size: 0.8rem;
+        text-align: center;
+        border-radius: 5px;
+      }
+
+      @media (max-width: 600px) {
+        #navbar {
+          display: none;
+        }
+      }
+    </style>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Perkuliahan</a></li>
+        <li><a href="#">Kemahasiswaan</a></li>
+        <li><a href="#">Kelulusan</a></li>
+        <li><a href="#">Wifi Mahasiswa</a></li>
+        <li><a href="#">Forum Portal</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li>
+          Services <i class="fas fa-angle-down"></i>
+          <ul>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Website Design</a></li>
+            <li><a href="#">Mobile Development</a></li>
+            <li><a href="#">SEO</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="mobile">
+      <div id="mobile-nav">
+        <a href="#">Home</a>
+        <a href="#">Perkuliahan</a>
+        <a href="#">Kemahasiswaan</a>
+        <a href="#">Kelulusan</a>
+        <a href="#">Wifi Mahasiswa</a>
+        <a href="#">Forum Portal</a>
+        <a href="#">FAQ</a>
+      </div>
+    </section>
+
+    <!-- Showcase -->
+    <!-- Home Article -->
+    <section id="home-articles" class="py-2">
+      <div class="container">
+        <div class="articles-container">
+          <article class="card">
+            <div>
+              <p style="text-align: center"><b>REKAP PRESENSI</b></p>
+              <p style="text-align: center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ut
+                ipsam ipsa saepe. Est obcaecati accusamus, sunt similique
+                voluptatem earum!
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <p><b>NIM</b> : 1800018359</p>
+            <p><b>NAMA</b> : ADITYA FAJRI MELINIANTO</p>
+            <p><b>PROGRAM STUDI</b> : TEKNIK INFORMATIKA</p>
+            <div class="custom-select" style="width: 200px">
+              <select>
+                <option value="0">GASAL 2018/2019</option>
+                <option value="1">GENAP 2018/2019</option>
+              </select>
+            </div>
+            <br />
+            <button type="submit" class="btn btn-secondary">
+              Lihat Presensi
+            </button>
+          </article>
+
+          <article class="card">
+            <div>
+              <article class="card bg-dark">
+                <p>BAYAR SPP TAHAP 1</p>
+              </article>
+              <br />
+              <article class="card bg-primary">
+                <p>KRS ONLINE</p>
+              </article>
+              <br />
+              <article class="card bg-secondary">
+                <p>LAYANAN CUTI AKADEMIK</p>
+              </article>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="py-1">
+      <div class="container footer-container">
+        <div>
+          <p>Copyright &copy; 2020, All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mobile-nav");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
