@@ -21,4 +21,4 @@
 
 6. Pilih semester untuk lihat presensi (Versi Mobile)
 
-![Alt](https://i.ibb.co/g6JMYbd/7-guys.gif)
+![Alt](https://i.ibb.co/DYmK23S/8-guys.gif)
