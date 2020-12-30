@@ -18,3 +18,7 @@
 5. Tampilah berhasil memilih mata kuliah (Versi Mobile)
 
 ![Alt](https://i.ibb.co/jkXybT7/5-guys.gif)
+
+6. Pilih semester untuk lihat presensi (Versi Mobile)
+
+![Alt](https://i.ibb.co/g6JMYbd/7-guys.gif)
