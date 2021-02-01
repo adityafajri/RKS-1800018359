@@ -1,4 +1,11 @@
 # Portal Front End UAD (Responsive)
+Nama : Aditya Fajri Melinianto<br>
+Nim : 1800018359
+
+Aplikasi Portal Mahasiswa ini merupakan implementasi front end dari desain wireframe dan workflow yang sudah saya buat pada tugas sebelumnya. Saya menggunakan teknologi HTML5 dan CSS3 untuk mengimpelentasinya, Sedangkan untuk alatnya saya menggunakan Visual Studio Code sebagai text editor, Chrome sebagai web browser untuk melakukan testing. Berikut merupakan link desain wireframe dan workflow yang sebelumnya telah saya buat : https://drive.google.com/drive/u/1/folders/1kLxvnwGly9AqboSz_MbwDyvbSveQC1t8. <br>
+
+Ada beberapa perubahan yang saya terapkan, yaitu warna. untuk layout dan tata letak sesuai dengan desain yang telah saya buat.
+<br><br>
 1. Tampilan Login Portal (Versi Mobile)
 
 ![Tampilan Awal](https://i.ibb.co/ww7S1FY/6-guys.gif)
